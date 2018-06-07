@@ -1,0 +1,42 @@
+.ModalView{
+    position: absolute;
+    top: 10%;
+    left : 35%;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(173, 202, 231);
+}
+
+.Heading{
+    padding: 5px;
+    height: 15%;
+    border: 1px solid black;
+    box-shadow: 0 2px 2px white;
+}
+
+.Body{
+    margin-top: 2px;
+    height: 65%;
+    border: 1px solid black;
+    box-shadow: 0 2px 2px white;
+}
+
+.Footer{
+    margin-top: 2px;
+    height: 15%;
+    border: 1px solid black;
+    box-shadow: 0 2px 2px white;
+}
+
+.Footer button{
+    background-color: #fff;
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 2px 10px 0 0;
+    cursor: pointer;
+    float: right;
+}
+
+.Footer button:hover{
+    background-color: #ccc;
+}

@@ -1,0 +1,24 @@
+.ControlRow{
+    width: 90%;
+    height: 50px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 2px #ccc;
+    margin: auto;
+    background-color : salmon;
+}
+
+.ControlRow p{
+    font-weight: bold;
+    margin-left:25px;
+}
+
+.ControlRow button{
+    float:right;
+    margin-right: 10px;
+}
+
+@media(min-width:500px){
+    .ControlRow{
+        width : 450px;
+    }        
+}
