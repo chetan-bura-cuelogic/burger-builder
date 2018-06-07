@@ -5,9 +5,10 @@ import SinglControl from './SingleControl/SingleControl';
 import classes from './BurgerControls.css';
 
 const burgerControls = (props) =>{
-    const checkoutBtn = <div className={classes.CheckOut}><button onClick={props.checkout}>Check Out</button></div>;
+    const checkoutBtn = <div className={classes.CheckOut}><button onClick={props.checkout}>Order Now</button></div>;
     return (
-            [props.ingredients.map((ingredient,index) => {
+            [props.burgerPrice === 0 ? <p className={classes.Message}>Please add any ingredient to your Burger!!!</p> : null
+            ,props.ingredients.map((ingredient,index) => {
                 return <SinglControl 
                 key = {ingredient.id}
                 name = {ingredient.name}

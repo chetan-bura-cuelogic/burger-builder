@@ -10,6 +10,13 @@
     margin: 20px auto;
 }
 
+.Message{
+    width: 350px;
+    margin: 0 auto 10px;
+    font-weight: bold;
+
+}
+
 .CheckOut button{
     background-color: #fff;
     border: 1px solid blue;
