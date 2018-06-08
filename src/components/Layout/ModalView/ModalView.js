@@ -9,7 +9,7 @@ const modalView = (props) =>{
             <div className={classes.Body}> 
             Your Burger made with below ingredients!!!
             {props.ingredients.map((ingredient,index) => {
-                return <p>{ingredient.name} slice count :{ingredient.count}</p>
+                return <p key={ingredient.id}>{ingredient.name} slice count :{ingredient.count}</p>
             })}
             </div>
             <div className={classes.Footer}> 
